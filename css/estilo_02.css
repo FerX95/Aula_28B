@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+
+body{
+    font-family: 'Urbanist', sans-serif;
+    background-color: cornflowerblue;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    height: max-content;
+    background-color: white;
+    padding: 35px;
+}
+
+.c-box{
+    display: flex;
+}
+
+.box{
+    width: 50%;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.btt_voltar{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btt_voltar:hover{
+    background-color: lightblue;
+    transition: 0.5s;
+}
